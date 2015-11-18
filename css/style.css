@@ -111,6 +111,9 @@ body 	{
 				-o-transform: rotateY( 180deg );
 				transform: rotateY( 180deg );
 			}
+			.card:hover .back{
+				backface-visibility: visible;	
+			}
 			.card .front,
 			.card .back{
 				width: 100%;
